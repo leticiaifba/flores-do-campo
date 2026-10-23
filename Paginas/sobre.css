@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 6.5rem;
+
+    background-image: url("/Imagens/flores.avif");
+
+    position: fixed;
+
+    color: black;
+}
+
+header img {
+    width: 6.5rem;
+}
+
+header ul {
+    list-style: none;
+
+    padding: 30px 0;
+}
+
+header li {
+    display: inline;
+    margin-right: 40px;
+    font-size: 1.5rem;
+}
+
+header a{
+    color: black;
+}
+
+a{
+    text-decoration: none;
+}
+
+.principal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: end;
+
+    gap: 30px;
+    background-color: #F4B1B1;
+
+    padding: 150px 0 0px;
+}
+
+.principal img {
+    width: 35rem;
+    margin-right: 4rem;
+}
+
+.principal h1 {   
+    font-family: "Playball";
+    width: 45rem;
+    font-size: 2.2em;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-left: 40px;
+}
+
+.qualidade-da-loja {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+
+    padding: 80px 30px;
+}
+
+.qualidade-da-loja h1{
+    font-family: "Playball";
+    font-size: 3em;
+}
+
+.qualidade-da-loja img {
+    min-width: 12rem;
+    max-width: 18rem;
+    height: 12rem;
+}
+
+.qualidade-da-loja div {
+    text-align: center;
+}
+
+.qualidade-da-loja div h3 {
+    padding: 10px 0;  
+    font-size: 2em;
+}
+
+.qualidade-da-loja div p {
+    padding: 10px 0;  
+    font-size: 1.5em;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 100px 0;
+    width: 100%;
+    background-color: #FF4E52;
+}
+
+main > div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+    padding: 50px 10px;
+
+    color: white;
+
+}
+
+main > div h2{
+    font-family: "Playball";
+    font-size: 3em;
+}
+
+main > div p{
+    font-size: 1.5em;
+}
+
+main >div img{
+    border-radius: 15rem;
+    width: 20rem;
+    height: 30rem;
+}
+
+main > div div{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.botao-header {
+    padding: 10px 30px;
+    background-color: pink;
+    border-radius: 30px;
+
+    text-decoration: none;
+    color: black;
+    border: black solid ;
+    box-shadow: 0 2px 0 black;
+}
+
+.botao {
+    padding: 20px 40px;
+    font-size: 1.5rem;
+    background-color: pink;
+    border-radius: 30px;
+
+    text-decoration: none;
+    color: black;
+    border: black solid ;
+    box-shadow: 0 2px 0 black;
+}
