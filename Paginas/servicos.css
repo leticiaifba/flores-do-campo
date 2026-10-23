@@ -1,12 +1,12 @@
 @font-face {
     font-family: 'Rouge';
-    src: url("/Fontes/RougeScript-Regular.ttf") format("truetype");
+    src: url("../Fontes/RougeScript-Regular.ttf") format("truetype");
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Salsa';
-    src: url("/Fontes/Salsa-Regular.ttf") format("truetype");
+    src: url("../Fontes/Salsa-Regular.ttf") format("truetype");
     font-style: normal;
 }
 
@@ -28,7 +28,7 @@ header {
     width: 100%;
     height: 6.5rem;
 
-    background-image: url("/Imagens/flores.avif");
+    background-image: url("../Imagens/flores.avif");
 
     position: fixed;
 
